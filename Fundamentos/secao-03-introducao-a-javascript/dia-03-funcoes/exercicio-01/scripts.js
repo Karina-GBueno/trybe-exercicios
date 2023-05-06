@@ -38,3 +38,4 @@ function divideValue (toDivide) {
 }
 
 console.log(divideValue(2));
+
