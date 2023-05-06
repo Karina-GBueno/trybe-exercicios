@@ -168,7 +168,8 @@ lucro = valorVenda - valorCustoTotal (lucro de um produto);*/
 let valorCusto = 100;
 let valorVenda = 199.99;
 let produto = 1000;
-valorCusto = valorCusto - 
+valorCusto = valorCusto -
+ 
 if (produto >= 1000) {
   let valorCustoTotal = valorCusto ;
   let lucro = valorVenda - valorCustoTotal;
