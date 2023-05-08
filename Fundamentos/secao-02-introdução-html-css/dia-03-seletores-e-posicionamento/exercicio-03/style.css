@@ -1,0 +1,55 @@
+/*Estilize as divs para que, ao passar o cursor por cima das mesmas, elas ganhem uma borda.*/
+div:hover {
+    border: 2px solid black;
+}
+
+/*Faça cada div ter uma cor de fundo própria.*/
+.primaria:hover {
+    background-color: blue;
+}
+
+.secundaria:hover {
+    background-color: green;
+}
+
+
+.complementar:hover {
+    background-color: purple;
+}
+
+.escura:hover {
+    background-color: brown;
+}
+
+.clara:hover {
+    background-color: beige;
+}
+
+/*Estilize cada uma das tags h3 da maneira que achar melhor (cor, tamanho, estilo e família).*/
+div:nth-of-type(1)>h3 {            /*dei uma olhada no gabarito e pesquisei no google para entender*/
+    color: blueviolet;
+}
+
+div:nth-of-type(2)>h3{
+    font-size: 20px;
+}
+
+div:nth-of-type(3)>h3{
+    font-family: cursive;
+    font-size: 30px;
+}
+
+div:nth-of-type(4)>h3{
+    font-style: italic;
+}
+
+div:nth-of-type(5)>h3{
+    background-color: aqua;
+}
+
+/*Deixe as tags ímpares h3 com o texto em itálico.*/
+div:nth-child(odd) h3 {
+    font-style: italic;
+}  
+
+
